@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://kit.fontawesome.com/1b5205d988.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+
+    <style>
+
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .azul{
+            width: 100%;
+            height:40vh;
+            background: #263466;
+        }
+
+        .cinza{
+            width: 100%;
+            height: 60vh;
+            background: #E0E0E0;
+        }
+
+        .form-flex{
+            display: flex;
+            justify-content: center;
+        }
+
+        .formulario{
+            padding: 20px 40px;
+            position: absolute;
+            top: 80px;
+            background: white;
+            width: 400px;
+            height: 520px; 
+            box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+            border-radius: 12px;
+        }
+
+        h2{
+            color: #263466;
+            text-align: center;
+            padding-top: 70px;
+            padding-bottom: 40px;
+            font-weight: 500;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        p{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            color: #3A508E;
+            padding-bottom: 7px;
+        }
+
+        input[type=email]{
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #3A508E;
+            margin-bottom: 20px;    
+        }
+
+        input[type=password]{
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #3A508E;
+            margin-bottom: 20px;    
+        }
+
+        label{
+            width: 100%;
+            font-size: 12px;
+            color: #ADADAD;
+        }
+
+        .btn a{
+            cursor: pointer;
+            text-decoration: none;
+            margin-top: 25px;
+            display:inline-block;
+            text-align: center;
+            padding: 15px 0;
+            width: 100%;
+            color: white;
+            background: #263466;
+            border: 1px solid #263466;
+            font-weight: 600;
+            transition: all 400ms ease;
+        }
+
+        .btn a:hover{
+            color: #263466;
+            background: transparent;
+            border: 1px solid #263466; 
+        }
+
+        .register{
+            padding-top: 15px;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .register a{
+            font-size: 14px;
+            text-decoration: none;
+            color: #ADADAD;
+        }
+
+        .register a:hover{
+            color: #777777;
+        }
+
+        .back{
+            padding-top: 15px;
+        }
+
+        .back a{
+            font-size: 14px;
+            text-decoration: none;
+            color: #ADADAD;
+        }
+
+        .back a:hover{
+            color: #777777;
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="azul">
+    </div>
+    <div class="cinza">
+    </div>
+    <div class="form-flex">
+        <div class="formulario">
+
+            <h2>Creative Company</h2>
+            <p>Username or email</p>
+            <input type="email">
+            <p>Password</p>
+            <input type="password">
+            <br>    
+            <input type="checkbox">
+            <label>Remember me</label>
+                <div class="btn">
+                    <a classhref="#">LOGIN</a>
+                </div>
+                <div class="register">
+                    <a href="#">Register</a><a href="#">Forgot your password?</a>
+                </div>
+                <div class="back">
+                    <a href=""><i class="fas fa-long-arrow-alt-left"></i>Back to WPBrigade</a>
+                </div>
+
+        </div>
+        
+    </div>
+</body>
+</html>
